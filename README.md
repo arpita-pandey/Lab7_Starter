@@ -9,6 +9,8 @@ No. End to end tests are meant to verify full user workflows through the interfa
 3) What is the difference between navigation and snapshot mode?
 
 Navigation mode analyzes a page as it loads from the beginning and measures overall load performance, accessibility, best practices, and SEO during that page load process. Snapshot mode analyzes the page only in its current state at a single moment, which makes it useful for checking things like accessibility issues but not for measuring page load behavior or JavaScript execution over time. 
+
+
 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
 
 Based on the Lighthouse report, one improvement would be to minify the JavaScript, since Lighthouse estimated about 58 KiB of savings there. Another would be to reduce unused JavaScript, which was the biggest issue and showed an estimated savings of about 3,151 KiB. A third improvement would be to reduce render blocking requests and heavy main thread work, since the report showed a Total Blocking Time of 540 ms and a Max Potential First Input Delay of 350 ms.
